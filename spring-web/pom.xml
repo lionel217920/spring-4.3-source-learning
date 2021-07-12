@@ -33,6 +33,10 @@
             <groupId>com.lionel</groupId>
             <artifactId>spring-context</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.lionel</groupId>
+            <artifactId>spring-oxm</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>javax.servlet</groupId>

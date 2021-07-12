@@ -16,6 +16,8 @@
         <module>spring-aop</module>
         <module>spring-expression</module>
         <module>spring-instrument</module>
+        <module>spring-web</module>
+        <module>spring-oxm</module>
     </modules>
 
     <properties>
@@ -53,6 +55,16 @@
             <dependency>
                 <groupId>com.lionel</groupId>
                 <artifactId>spring-instrument</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lionel</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.lionel</groupId>
+                <artifactId>spring-oxm</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
 
