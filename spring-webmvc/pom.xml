@@ -45,6 +45,10 @@
             <groupId>com.lionel</groupId>
             <artifactId>spring-oxm</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.lionel</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.lionel.springframework</groupId>
@@ -52,6 +56,14 @@
             <version>2.6</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/../lib/spring-objenesis-repack-2.6.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.lionel.springframework</groupId>
+            <artifactId>spring-cglib-repack</artifactId>
+            <version>2.6</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../lib/spring-cglib-repack-3.2.5.jar</systemPath>
         </dependency>
 
         <dependency>
